@@ -1,0 +1,44 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.custom-navbar {
+    background-color: #3c5956; /* Dark green color */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #b0b0b0; /* Light grey color for links */
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+    color: #fff; /* White color on hover and active */
+}
+
+.navbar-nav .nav-item.active .nav-link .underline {
+    display: block;
+}
+
+.underline {
+    width: 100%;
+    height: 2px;
+    background-color: #ffce54; /* Yellow underline */
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    display: none;
+}
+
+.nav-item.active .underline {
+    display: block;
+}
+
+.navbar-nav .nav-item .nav-link i {
+    font-size: 1.2rem;
+}
